@@ -1,0 +1,46 @@
+.main-top-item-box {
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin: 10px;
+
+    padding: 10px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    background-color: #fff;
+
+    width: 100%
+
+}
+
+
+
+.main-top-category-box {
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.main-top-category-title {
+
+    font-size: 1.5em;
+
+    font-weight: bold;
+
+    margin-bottom: 10px;
+
+}
+
+.main-top-board-item {
+    display: flex;
+    flex-direction: column;
+}

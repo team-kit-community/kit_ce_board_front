@@ -1,0 +1,167 @@
+.board-detail-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.board-detail-container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.board-detail-top {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.board-detail-header {
+    margin-bottom: 20px;
+}
+
+.board-detail-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.board-detail-top-sub-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.board-detail-write-info-box {
+    display: flex;
+    align-items: center;
+}
+
+.board-detail-writer-nickname {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.board-detail-writer-nickname-text {
+    cursor: pointer;
+    font-weight: bold;
+    color: #000;
+}
+
+.board-detail-write-datetime {
+    display: flex;
+    flex-direction: column;
+}
+
+.board-detail-write-datetime-text {
+    color: #6c757d;
+}
+
+.divider {
+    height: 1px;
+    background-color: #e9ecef;
+    margin: 20px 0;
+}
+
+.board-detail-main {
+    margin-top: 20px;
+}
+
+.board-detail-main-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.board-detail-main-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+/* 바텀 부분 시작 */
+
+.board-detail-bottom {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.board-detail-bottom-button-box {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 10px; 
+}
+
+.board-detail-bottom-button-group {
+    display: flex;
+    align-items: center;
+}
+
+.icon-button {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.board-detail-bottom-button-text {
+    font-size: 14px;
+    color: #333;
+}
+
+.board-detail-bottom-comment-box {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.board-detail-bottom-comment-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.board-detail-bottom-comment-input-box {
+    margin-bottom: 20px;
+}
+
+.board-detail-bottom-comment-input-container {
+    position: relative;
+}
+
+.board-detail-bottom-comment-textarea {
+    width: 100%;
+    min-height: 30px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    resize: none;
+    outline: none;
+}
+
+.board-detail-bottom-comment-button-box {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.board-detail-bottom-comment-list-container {
+    margin-top: 20px;
+}
+
+.divider {
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+.board-detail-bottom-comment-pagination-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
