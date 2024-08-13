@@ -1,0 +1,17 @@
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.category {
+    color: rgba(0, 0, 0, 1);
+
+    font-family: 'GimhaeGaya';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -0.4px;
+}

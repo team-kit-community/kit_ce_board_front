@@ -1,0 +1,244 @@
+/* 유저 정보 컴포넌트 스타일 */
+.user-info-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-info-top-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.user-info-top-box-left {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.user-info-top-box-right-logout-button {
+    background-color: #f0f0f0;
+    color: #000;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.user-info-top-box-right-logout-button:hover {
+    background-color: #e0e0e0;
+}
+
+.user-info-detail-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.user-info-detail-box-user-image {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.user-info-detail-box-userinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-info-detail-box-userinfo-nickname,
+.user-info-detail-box-userinfo-userId {
+    margin-bottom: 4px;
+}
+
+.user-info-change-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px; 
+}
+
+.user-info-change-box-password-button,
+.user-info-change-box-nickname-button {
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 4px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    color: #333;
+}
+
+.user-info-change-box-password-button::after,
+.user-info-change-box-nickname-button::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.user-info-change-box-password-button:hover::after,
+.user-info-change-box-nickname-button:hover::after {
+    transform: scaleX(1);
+}
+
+/* 유저가 작성한 게시물 출력 */
+.user-board-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.user-board-container {
+    width: 100%;
+    max-width: 800px;
+}
+
+.user-board-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.user-board-title,
+.emphasis {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.emphasis {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Verdana', sans-serif;
+}
+.user-board-contents-box {
+    margin-top: 20px;
+}
+
+.user-board-content-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.user-board-contents-nothing {
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+}
+
+.user-board-pagination-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.user-page-container {
+    display: flex;
+}
+
+.user-page-user-info {
+    flex: 1;
+    max-width: 33.33%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.user-page-user-user-board {
+    flex: 2;
+    max-width: 66.67%;
+}
+
+.user-nickname-change-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    min-width: 400px;
+}
+
+.user-nickname-change-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.user-nickname-change-input-box {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.user-nickname-change-button-box {
+    background-color: #f0f0f0; /* 연한 회색 */
+    color: black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    width: auto;
+    align-self: stretch;
+}
+
+.user-nickname-change-button-box:hover {
+    background-color: #e0e0e0; /* 연한 회색 */
+}
+
+.user-password-change-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-password-change-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.user-password-change-input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.user-password-change-button-box {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: black;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-password-change-button-box:hover {
+    background-color: #e0e0e0;
+}
+
+.user-page-nickname-change,
+.user-page-password-change {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+}
